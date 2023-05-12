@@ -362,7 +362,7 @@ header, footer {
 
 @media (max-width: 666px) {
     .number {
-        padding: 5%;
+        padding: 40% 5% 5% 5%;
     }
 
     .number-inner {
@@ -1331,8 +1331,10 @@ details[open] summary::before {
     }
 
     .swiper {
-        width: 90%;
-        margin: 0 auto;
+        display: none;
+    }
+    .slider-title {
+        display: none;
     }
 }
 
@@ -1541,5 +1543,8 @@ font-size: 16px;
         display: flex;
         flex-direction: column;
         margin-left: 2em;
+    }
+    .photo>.section-title {
+        display: none;
     }
 }
