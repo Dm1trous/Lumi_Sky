@@ -659,7 +659,7 @@ header, footer {
 }
 
 .request {
-    background-image: url(/img/index/request.jpg);
+    background-image: url(img/index/request.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
